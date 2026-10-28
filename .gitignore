@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Design working files (screenshots, sketches); not part of the site
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/build/
+
+# Never commit secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Internal notes: kept on this Mac only (public repo)
+PRODUCT.md
+.impeccable/
+DESIGN.md
+PUBLISHING.md
+LAUNCH-AUDIT-*.md
