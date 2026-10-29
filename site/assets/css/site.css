@@ -136,7 +136,7 @@ body {
 img, video { display: block; max-width: 100%; }
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
 a:hover { text-decoration-thickness: 2px; }
-p { margin: 0 0 var(--space-2); }
+p { margin: 0 0 var(--space-2); text-wrap: pretty; }
 h1, h2, h3 { font-family: var(--font-display); font-weight: 400; margin: 0; text-wrap: balance; }
 .visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .skip { position: absolute; left: 1rem; top: -4rem; z-index: 20; background: var(--ivory); color: var(--ink); padding: 0.75rem 1rem; }
@@ -232,7 +232,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 400; margin: 0; text
 
 .stage__logo { width: clamp(220px, 30vw, 440px); height: auto; margin: 0 auto clamp(1.2rem, 3vh, 2rem); }
 .stage h1 { font-size: clamp(2.5rem, 1.4rem + 3.6vw, 4.6rem); line-height: 1.04; letter-spacing: -0.01em; margin-bottom: var(--space-3); }
-.stage__lede { font-size: var(--step-1); line-height: 1.5; color: var(--quill); max-width: 76ch; margin: 0 auto var(--space-4); }
+.stage__lede { font-size: var(--step-1); line-height: 1.5; color: var(--quill); max-width: 76ch; margin: 0 auto var(--space-4); text-wrap: balance; }
 .stage .actions { justify-content: center; }
 
 .billing {
